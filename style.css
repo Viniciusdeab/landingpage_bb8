@@ -1,0 +1,74 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(#1572A1,#9AD0EC, #C0D8C0, #F6C89F,#F9CF93 80%);
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo-imagem{
+    width: 80px;
+    border-radius:50%;
+}
+
+.menu-nav{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item{
+    font-size: 18px;
+
+}
+
+.menu-item:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+hr{
+    height: 5px;
+    background: linear-gradient(transparent,#00FFFF 25%,white 50%,#00FFFF 75%, transparent);
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo{
+    font-weight: 400px;
+    font-size: 64px;
+}
+
+.conteudo-principal-subtitulo{
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+.conteudo-principal-botao{
+    background: linear-gradient(transparent,#00FFFF 25%,white 50%,#00FFFF 75%, transparent);
+    width: 180px;
+    height: 80px;
+    border: 0px;
+    border-radius: 10px;
+}
